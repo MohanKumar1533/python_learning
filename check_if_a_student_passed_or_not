@@ -1,0 +1,8 @@
+score = int(input("enter your score: "))
+pass_score = 35
+if 35 <= score <=100:
+	print("Congratulation !, you passed your exam")
+elif 0<= score <35:
+	print("Sorry , you didn't passed your exam")
+else:
+	print("invalid score")
