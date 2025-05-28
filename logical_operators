@@ -1,0 +1,11 @@
+has_license = input("do you have a license(yes or no): ")
+owns_car = input("do you have a car(yes or no): ")
+#and
+if (has_license == 'yes')and(owns_car == 'yes'):
+	print("you have license and owns a car")
+#or
+elif (has_license == 'yes')or(owns_car == 'yes'):
+	print("you either has license or owns a car")
+#not
+elif not has_license == 'yes' and (owns_car == 'no'):
+	print("you have none")
