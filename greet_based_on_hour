@@ -1,0 +1,9 @@
+x = int(input("enter hour(in 24 hours): "))
+if 6< x <12:
+	print("Good Morning")
+elif 12<= x <18:
+	print("Good Afternoon")
+elif 18<= x < 22:
+	print("Good Evening")
+else:
+	print("Good Night")
