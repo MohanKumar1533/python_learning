@@ -1,0 +1,6 @@
+def add_two_numbers(num1,num2):
+	sum = num1 + num2
+	print(f"sum : {sum}")
+num1 = int(input("enter a number: "))
+num2 = int(input("enter a number: "))
+add_two_numbers(num1,num2)
