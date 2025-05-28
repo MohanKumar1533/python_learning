@@ -1,0 +1,7 @@
+number = input("enter a two-digit number: ")
+first_digit = int(number[0])
+second_digit = int(number[1])
+add_digits = first_digit + second_digit
+print(f"First digit is {first_digit}")
+print(f"Second digit is {second_digit}")
+print(f"Sum of two digits : {add_digits}")
